@@ -1,0 +1,263 @@
+/** BEGIN: Non Openmrs CSS **/
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+	font-family: "Roboto";
+}
+.stink{
+  display: flex;
+  justify-content: space-around;
+}
+.fin{
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+div.container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	margin-top: 30px;
+	border: 1px solid whitesmoke;
+	padding: 21px;
+	border-radius: 4px;
+}
+h1.title {
+	text-align: center;
+  color: #131110;
+	margin-bottom: 45px;
+}
+:root {
+  --primary: #0d0f16;
+  --secondary: rgba(255, 255, 255, 0.78);
+  --black: #101013;
+  --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+  --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+  --blue: #131416;
+  --lightBlue: #eeeeff;
+  --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* scroll-behavior: smooth; */
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.paddings {
+  padding: 1.5rem;
+}
+
+.button{
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  color: white;
+  background: var(--black);
+  border: none;
+  border-radius: 4px;
+  transition: all 300ms ease-in;
+}
+
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.button Link{
+  text-decoration: none;
+}
+
+.innerWidth {
+  width: 100%;
+}
+
+.flexCenter {
+  display: flex;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+ul{
+  list-style-type: circle;
+}
+.serve{
+  justify-content: space-evenly;
+  display: flex;
+  padding: 40px;
+}
+.game{
+  display: flex;
+}
+.game>img{
+  border-right: 2px solid #eeeeff;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+.simple-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 180px;
+}
+
+.simple-card-image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.simple-card-title {
+  margin: 0;
+  padding: 8px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flexColCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexColStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flexColEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.primaryText {
+  color: #1f3e72;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.secondaryText {
+  color: #fff;
+  font-size: 0.9rem;
+}
+.orangeText {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.cent{
+  text-align: center;
+  border: 3px solid #c7bc1b;
+  border-radius: 4px;
+}
+/* media queries */
+@media (min-width: 1536px) {
+  .innerWidth {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .paddings {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 1280px), (min-width: 768px) {
+  .paddings {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .primaryText {
+    font-size: 1.5rem;
+  }
+  .orangeText {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+.forgrid {
+  padding-top: 130px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.gree{
+  margin-top: 80px;
+}
+.doxs{
+  background: #084c77;
+}
+.doxs h1{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.rain{
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 75%;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.gane{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 0px auto;
+}
+.gane p{
+  padding: 20px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+.boxes{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.ven{
+  background: #fff;
+  padding: 30px;
+}
+.ven img{
+  margin-bottom: 10px;
+}
+.bout{
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+

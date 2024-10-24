@@ -1,0 +1,114 @@
+/* Import Slick Carousel styles */
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+/* Hero Section */
+.hero-wrapper {
+  padding: 60px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Hero Container */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Left Section - Text Carousel */
+.hero-left {
+  flex: 1;
+  max-width: 500px;
+  text-align: left;
+}
+
+.hero-title h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #004080;
+  margin-bottom: 20px;
+}
+
+.orange-circle {
+  width: 15px;
+  height: 15px;
+  background-color: #ff8c00;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: -25px;
+}
+
+.secondaryText {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  background-color: #004080;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #002060;
+}
+
+/* Right Section - Image Carousel */
+.hero-right {
+  flex: 1;
+  max-width: 600px;
+}
+
+.carousel-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Slider Dots Styling */
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #555;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #004080;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-wrapper {
+    padding: 30px 3%;
+  }
+
+  .hero-left {
+    text-align: center;
+  }
+
+  .hero-title h1 {
+    font-size: 2rem;
+  }
+
+  .hero-button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .hero-right {
+    max-width: 100%;
+  }
+}
