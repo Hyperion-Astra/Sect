@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
+
 const Hero = () => {
   useEffect(() => {
     Aos.init({ duration: 1200 });

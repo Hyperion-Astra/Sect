@@ -1,6 +1,6 @@
 /* Import Slick Carousel styles */
-@import '~slick-carousel/slick/slick.css';
-@import '~slick-carousel/slick/slick-theme.css';
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
 
 /* Hero Section */
 .hero-wrapper {
