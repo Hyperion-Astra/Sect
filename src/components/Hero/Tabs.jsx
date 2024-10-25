@@ -32,7 +32,7 @@ const Tabs = () => {
                     <div className="tab-icon">
                         <img src="./car.png" alt="Icon 3" />
                     </div>
-                    <h2>Auto Deals</h2>
+                    <h2>Auto Dealers(Used Car)</h2>
                     <p>We offer a large Variety of Automobiles to suit any specific need.</p>
                     <Link to="/services"><button>View Details</button></Link>
                 </div>
