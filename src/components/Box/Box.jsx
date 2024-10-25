@@ -19,10 +19,10 @@ const Box = () => {
           Loss Prevention <span className='highlight' style={highlightStyle}>Services</span>
         </h1>
         <p style={paragraphStyle}>
-          We prioritize the protection of your assets and the integrity of your business. Our loss prevention services are designed to mitigate risks associated with theft, fraud, and operational inefficiencies. Through a combination of advanced surveillance technology, employee training, and strategic security assessments, we create tailored solutions that not only protect your inventory but also foster a safe shopping environment. With our expert team on your side, you can confidently focus on growing your business, knowing that we’re dedicated to preventing losses and ensuring the safety of your operations.
+          We prioritize the protection of your assets and the integrity of your business. Our loss prevention services are designed to mitigate risks associated with theft, fraud, and operational inefficiencies.
         </p>
         <div className="explore-button" style={buttonContainerStyle}>
-          <Link to="/services">
+          <Link to="/loss-prevention">
             <button style={buttonStyle}>Explore Loss Prevention Services</button>
           </Link>
         </div>

@@ -18,10 +18,10 @@ const Governance = () => {
           Site Security <span className="highlight" style={highlightStyle}>Services</span>
         </h1>
         <p style={paragraphStyle}>
-          At MBACAL SECURITY & INVESTIGATION, we recognize the importance of safeguarding your site against potential threats. Our site security services are tailored to meet the unique needs of various environments, including construction sites, warehouses, and corporate facilities. Our skilled security personnel provide comprehensive monitoring, access control, and incident response to ensure the safety of your assets and personnel. With a focus on risk assessment and proactive measures, we create a secure environment that allows your operations to run smoothly. Trust us to protect your site, so you can concentrate on your business’s success.
+          At MBACAL SECURITY & INVESTIGATION, we recognize the importance of safeguarding your site against potential threats. Our site security services are tailored to meet the unique needs of various environments, including construction sites, warehouses, and corporate facilities.
         </p>
         <div className="explore-button" style={buttonContainerStyle}>
-          <Link to="/services">
+          <Link to="/site-security-services">
             <button style={buttonStyle}>
               Explore Site Security Services
             </button>

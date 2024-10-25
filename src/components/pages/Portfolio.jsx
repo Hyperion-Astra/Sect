@@ -28,7 +28,7 @@ const Portfolio = () => {
 
                 {/* Company Information */}
                 <div className="company-info">
-                    <h3>Companies Overseen by Dr. Ugwumba</h3>
+                    <h3>Mbacal Group LLC</h3>
                     <div className="company-list">
                         <div className="company-item">
                             <h4>Mbacal Group LLC</h4>

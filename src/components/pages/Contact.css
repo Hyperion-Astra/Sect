@@ -84,6 +84,7 @@ button:hover {
 /* Contact Information */
 .contact-info {
     flex: 1 1 45%;
+    margin-left: 100px;
 }
 
 .contact-info h3 {

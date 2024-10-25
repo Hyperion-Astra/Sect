@@ -1,0 +1,51 @@
+/* General page layout */
+.box-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Header bar styling */
+.box-header {
+    margin-top: 100px;
+    background-color: #002855; /* Dark blue color for the header bar */
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Content section styling */
+.box-content {
+    background-color: #f9f9f9; /* Light gray background for content */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box-content h3 {
+    margin-bottom: 15px;
+    color: #002855;
+}
+
+.box-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.box-content ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.box-content ul li strong {
+    color: #002855; /* Darker color for emphasis */
+}
+
+.box-content p {
+    margin-top: 20px;
+    line-height: 1.6;
+}

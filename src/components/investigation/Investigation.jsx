@@ -15,14 +15,14 @@ const Investigation = () => {
       </div>
       <div data-aos="fade-left" className="investigation-content" style={contentStyle}>
         <h1 style={titleStyle}>
-          Investigation<span className="highlight" style={highlightStyle}> Services</span>
+          Private Investigation<span className="highlight" style={highlightStyle}> Services</span>
         </h1>
         <p style={paragraphStyle}>
-          At MBACAL SECURITY & INVESTIGATION, we offer comprehensive and, more importantly, discreet investigation services to uncover the truth and provide clarity in complex situations. Our team of experienced investigators utilizes advanced techniques and technology to conduct thorough inquiries, whether for corporate fraud, background checks, or personal matters. With a commitment to confidentiality and professionalism, we deliver detailed reports and actionable insights to help you make informed decisions. Trust us to handle your investigative needs with discretion and expertise, ensuring you have the information you need to move forward confidently.
+          At MBACAL SECURITY & INVESTIGATION, we offer comprehensive and, more importantly, discreet investigation services to uncover the truth and provide clarity in complex situations.
         </p>
         <div className="explore-button" style={buttonContainerStyle}>
-          <Link to="/services">
-            <button style={buttonStyle}>Explore Investigation Services</button>
+          <Link to="/private-investigation">
+            <button style={buttonStyle}>Explore Private Investigation Services</button>
           </Link>
         </div>
       </div>

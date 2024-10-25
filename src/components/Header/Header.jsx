@@ -20,7 +20,7 @@ const getMenuStyles = (menuOpened) => {
         <section className="h-wrapper">
           <div id='contain' className="flexCenter paddings innerWidth h-container">
             <Link to="/">
-              <img src="/mbacal.png" alt="Logo" width={100} />
+              <img src="/mbacal.png" alt="Logo" width={300} />
             </Link>
             
               <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>

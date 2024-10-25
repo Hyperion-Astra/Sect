@@ -10,7 +10,7 @@ import Footer from '../Footer';
 import Investigation from '../investigation/Investigation'
 import Overdue from '../finance/Overdue'
 import Accounting from '../finance/Accounting';
-import Tabs from '../Hero/Tabs'
+import Tabs from '../Hero/Tabs';
 
 const Home = () => {
 

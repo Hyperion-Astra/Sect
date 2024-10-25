@@ -19,21 +19,10 @@ const Market = () => {
          Market Survey <span className="highlight" style={highlightStyle}>Services</span>
         </h1>
         <p style={paragraphStyle}>
-        We specialize in comprehensive market survey services that provide valuable insights to drive your business decisions. Our expert team employs a variety of methodologies to gather and analyze data, helping you understand market trends, customer preferences, and competitive dynamics.
+        We specialize in comprehensive market survey services that provide valuable insights to drive your business decisions.
         </p>
-        <div className="key-features">
-          <h2>Key Features of Our Service:</h2>
-          <ul>
-            <li><strong>Tailored Survey:</strong> We design custom surveys that target your specific objectives, ensuring relevant and actionable insights for your business.</li>
-            <li><strong>Data Collection:</strong>  Utilizing both quantitative and qualitative methods, we gather data through various channels, including online surveys, interviews, and focus groups.</li>
-            <li><strong>In-Depth Analysis:</strong> Our team analyzes the collected data to identify key trends, patterns, and opportunities that can inform your strategy.</li>
-            <li><strong>Actionable Insights:</strong> We provide clear, actionable recommendations based on the survey findings, enabling you to make informed decisions to enhance your market position.</li>
-            <li><strong>Ongoing Support:</strong> We offer continuous support to help you implement the insights gained from the survey and track the impact on your business performance.</li>
-          </ul>
-          <p>Partner with Mbacal INTEGRATED FINANCIAL & LEGAL CONSULT for market survey services that empower you to make strategic decisions with confidence. Let us help you navigate your market landscape effectively and drive your business growth.</p>
-        </div>
         <div className="explore-button" style={buttonContainerStyle}>
-          <Link to="/services">
+          <Link to="/market-services">
             <button style={buttonStyle}>
               Explore Services
             </button>

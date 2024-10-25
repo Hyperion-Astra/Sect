@@ -1,0 +1,69 @@
+/* General page layout */
+.investigation-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Header bar styling */
+  .investigation-header {
+    margin-top: 100px;
+    background-color: #004080; /* Dark blue color for the header */
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Content section styling */
+  .investigation-content-section {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  /* Image container */
+  .investigation-image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .investigation-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    border: 8px solid #004080;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Content area */
+  .investigation-details {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .investigation-details h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .investigation-details .highlight {
+    color: #004080;
+  }
+  
+  .investigation-details p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+
+  

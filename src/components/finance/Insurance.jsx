@@ -21,19 +21,9 @@ const Insurance = () => {
         <p style={paragraphStyle}>
         We provide a wide range of insurance services tailored to protect your assets and ensure peace of mind. Our team of experts is dedicated to understanding your unique needs and helping you navigate the complexities of insurance coverage.
         </p>
-        <div className="key-features">
-          <h2>Key Features of Our Service:</h2>
-          <ul>
-            <li><strong>Comprehensive Coverage Options:</strong> We offer a variety of insurance products, including business, liability, property, and personal insurance, ensuring you have the protection you need.</li>
-            <li><strong>Risk Assessment:</strong> Our specialists conduct thorough assessments to identify potential risks and recommend appropriate coverage to mitigate them.</li>
-            <li><strong>Customised Solutions:</strong> We work closely with you to develop personalized insurance strategies that align with your specific goals and budget.</li>
-            <li><strong>Claims Support:</strong> Our team provides dedicated assistance throughout the claims process, ensuring you receive the support you need for a smooth resolution.</li>
-            <li><strong>Ongoing Reviews:</strong> We regularly review your insurance policies to adapt to changes in your business or personal circumstances, ensuring you always have optimal coverage.</li>
-          </ul>
-          <p>Trust us to safeguard your future with our reliable and comprehensive insurance services. Let us help you find the right coverage to protect what matters most.</p>
-        </div>
+        
         <div className="explore-button" style={buttonContainerStyle}>
-          <Link to="/services">
+          <Link to="/insurance">
             <button style={buttonStyle}>
               Explore Services
             </button>

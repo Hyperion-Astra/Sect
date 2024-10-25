@@ -1,0 +1,83 @@
+/* General page layout */
+.market-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Header bar styling */
+  .market-header {
+    margin-top: 100px;
+    background-color: #000080; /* Navy blue color for the header */
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Content section styling */
+  .market-content-section {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  /* Image container */
+  .market-image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .market-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 8px solid #000080;
+  }
+  
+  /* Content area */
+  .market-details {
+    flex: 1.5;
+  }
+  
+  .market-details h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .market-details .highlight {
+    color: #000080;
+  }
+  
+  .market-details p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Key features list */
+  .key-features h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .key-features ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .key-features li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  

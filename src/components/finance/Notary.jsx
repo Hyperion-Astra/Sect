@@ -21,19 +21,8 @@ const Notary = () => {
         <p style={paragraphStyle}>
         We offer professional notary services to ensure that your important documents are executed with authenticity and legal validity. Our licensed notaries are committed to providing efficient and reliable service, making the notarization process seamless for you.
         </p>
-        <div className="key-features">
-          <h2>Key Features of Our Service:</h2>
-          <ul>
-            <li><strong>Document Verification:</strong> We verify the identity of signers and witness the signing of documents, ensuring compliance with all legal requirements.</li>
-            <li><strong>Wide Range of Document:</strong> Our notary services cover various documents, including contracts, affidavits, wills, and power of attorney, catering to both personal and business needs.</li>
-            <li><strong>Mobile Notary Options:</strong> For your convenience, we offer mobile notary services, coming to your location to facilitate notarization at your preferred time and place..</li>
-            <li><strong>Confidientiality Assurance:</strong>We prioritize your privacy and handle all documents with the utmost discretion and security.</li>
-            <li><strong>Timely Service:</strong> Our team is dedicated to providing quick and efficient notarization, helping you meet deadlines and keep your processes moving smoothly.</li>
-          </ul>
-          <p>Choose Mbacal INTEGRATED FINANCIAL & LEGAL CONSULT for reliable notary services that ensure your important documents are properly executed and legally binding. Let us help you navigate your notarization needs with professionalism and ease.</p>
-        </div>
         <div className="explore-button" style={buttonContainerStyle}>
-          <Link to="/services">
+          <Link to="/notary-services">
             <button style={buttonStyle}>
               Explore Services
             </button>

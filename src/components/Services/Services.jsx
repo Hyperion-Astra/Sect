@@ -1,14 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Services.css';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 
 const Services = () => {
-
-    useEffect(() => {
-        Aos.init({ duration: 1200 });
-    }, []);
 
     return (
         <section className='services-section' style={sectionStyle}>
@@ -18,12 +12,9 @@ const Services = () => {
                 </h1>
                 <p style={paragraphStyle}>
                     We understand that a successful event goes beyond just the experience; it requires a safe and secure environment.
-                    <br /> Our dedicated event security team specializes in comprehensive security solutions tailored to your specific needs, whether it's a corporate gathering, concert, or private celebration.
-                    <br /> We provide trained personnel, access control, crowd management, and emergency response planning to ensure that every aspect of your event runs smoothly.
-                    <br /> Trust us to safeguard your attendees and create a welcoming atmosphere, allowing you to focus on what matters most—making your event a success.
                 </p>
                 <div className="explore-button" style={buttonContainerStyle}>
-                    <Link to="/services">
+                    <Link to="/event-security-services">
                         <button style={buttonStyle}>Explore Event Security Services</button>
                     </Link>
                 </div>
