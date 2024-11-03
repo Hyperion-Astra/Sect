@@ -42,8 +42,8 @@ const Foltlab = () => {
                     <h3>Contact Information</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque malesuada augue, non sagittis est luctus eget.</p>
                     <ul>
-                        <li>Email: info@example.com</li>
-                        <li>Phone: (123) 456-7890</li>
+                        <li>Email: enquiries@ugwumbacdiala.com</li>
+                        <li>Phone: 1(209)-822-2194</li>
                         <li>Address: 1234 Main St, City, Country</li>
                     </ul>
                 </div>

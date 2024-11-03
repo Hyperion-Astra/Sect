@@ -35,7 +35,7 @@ const Portfolio = () => {
                         <div className="company-item">
                             <h4>Mbacal Group LLC</h4>
                             <p>30 N Gould St #34769, Sheridan WY 82801</p>
-                            <p>Tel: 209-827-2194</p>
+                            <p>Tel: 1(209)-822-2194</p>
                         </div>
                         <div className="company-item">
                             <h4>Integrated Financial & Legal Consult LIC 0106887</h4>
