@@ -29,7 +29,7 @@ const Event = () => {
                     <br /> Our dedicated event security team specializes in comprehensive security solutions tailored to your specific needs, whether it's a corporate gathering, concert, or private celebration.
                     <br /> We provide trained personnel, access control, crowd management, and emergency response planning to ensure that every aspect of your event runs smoothly.
                     <br /> Trust us to safeguard your attendees and create a welcoming atmosphere, allowing you to focus on what matters most—making your event a success.
-               </p>
+              </p>
 
         </div>
       </section>

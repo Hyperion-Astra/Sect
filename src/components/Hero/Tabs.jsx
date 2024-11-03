@@ -1,5 +1,5 @@
 import React from 'react';
-import './Tabs.css'; // Ensure to add the CSS for styling
+import './Tabs.css';
 import { Link } from 'react-router-dom';
 
 const Tabs = () => {
@@ -12,7 +12,7 @@ const Tabs = () => {
                     <div className="tab-icon">
                         <img src="./sect.jpeg" alt="Icon 1" />
                     </div>
-                    <h2>Security & Investigation</h2>
+                    <h2>Security & Investigations</h2>
                     <p>We prioritize brand integrity through proactive security measures and thorough investigations.</p>
                     <Link to="/services"><button>View Details</button></Link>
                 </div>

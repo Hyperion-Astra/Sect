@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; // Make sure to style the footer accordingly
+import './Footer.css';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -30,7 +30,7 @@ const Footer = () => {
 
          {/* Contact Info */}
             <div className="footer-contact">
-                <p>Tel: 209-827-2194 | <a href="mailto:enquiries@ugwumbacdiala.com">enquiries@ugwumbacdiala.com</a></p>
+                <p>Tel: 1(209)-822-2194 | <a href="mailto:enquiries@ugwumbacdiala.com">enquiries@ugwumbacdiala.com</a></p>
             </div>
 
         {/* License Number */}

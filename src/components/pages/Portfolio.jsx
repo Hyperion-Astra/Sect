@@ -18,6 +18,8 @@ const Portfolio = () => {
             <div className="about-section container">
                 <div className="about-details">
                     <h2>About Dr. Ugwumba</h2>
+                    <img src="./ugwumba.jpg" alt="Dr. Diala Callistus Ugwumba" className="about-image"
+                style={{ width: "150px", height: "auto", marginRight: "20px" }} />
                     <p>
                         Dr. Ugwumba holds a doctorate degree in Management (Corporate Finance) from Walden University, a Masters in Law (LLM) from Northeastern University, and an LLB Law degree from the National Open University of Nigeria. He also holds an MBA in Finance and a degree in Actuarial Science from the University of Lagos.
                     </p>
@@ -37,6 +39,8 @@ const Portfolio = () => {
                         </div>
                         <div className="company-item">
                             <h4>Integrated Financial & Legal Consult LIC 0106887</h4>
+                            <p>1680 S. E Street, Suite B- 49</p>
+                            <p>Tel: 760-953-4853</p>
                         </div>
                         <div className="company-item">
                             <h4>Mbacal Auto & Dismantle LIC 06435</h4>

@@ -12,6 +12,8 @@ import Accounting from '../finance/Accounting';
 import Insurance from '../finance/Insurance'
 import Notary from '../finance/Notary'
 import Market from '../finance/Market'
+import Live from '../finance/Live'
+import Security from '../finance/Security'
 
 const Nservices = () => {
   return (
@@ -28,6 +30,8 @@ const Nservices = () => {
         <Notary />
         <Experience />
         <Market />
+        <Security />
+        <Live />
         <Investigation />
     </div>
 
