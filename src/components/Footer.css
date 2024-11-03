@@ -32,6 +32,9 @@
   font-weight: bold;
   transition: color 0.3s;
 }
+.footer-contact p{
+  color: white;
+}
   .footer-links h3, .footer-social h3, .footer-license h3 {
     margin-bottom: 15px;
     font-size: 1.2rem;
@@ -63,10 +66,12 @@
     border-top: 1px solid #ccc;
     padding-top: 10px;
     font-size: 0.9rem;
+    color: white;
   }
   
   .footer-license p {
     margin: 0;
+    color: white;
   }
   
   @media (max-width: 768px) {
