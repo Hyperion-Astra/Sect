@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
+import './MarketPage.css';
 
 const Bodyguard = () => {
   useEffect(() => {
@@ -12,8 +13,11 @@ const Bodyguard = () => {
     <div className="experience-page">
       {/* Header bar */}
       <br />
-      <br />
-      <br />
+      <div className="market-header">
+        <h2>Body Guard Services</h2>
+        <br />
+        <img src="./logo.png" alt="Logo" />
+      </div>
 
       {/* Main content section */}
       <section className="experience-section" style={sectionStyle}>

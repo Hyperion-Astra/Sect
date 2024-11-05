@@ -14,6 +14,8 @@ const LivePage = () => {
       {/* Header bar */}
       <div className="market-header">
         <h2>Live Scan Services</h2>
+        <br />
+        <img src="./logo.png" alt="Logo" />
       </div>
 
       {/* Main content section */}

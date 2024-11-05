@@ -14,6 +14,8 @@ const InvestigationPage = () => {
       {/* Header bar */}
       <div className="investigation-header">
         <h2>Private Investigation Services</h2>
+        <br />
+        <img src="./logo.png" alt="Logo" />
       </div>
 
       {/* Main content section */}
