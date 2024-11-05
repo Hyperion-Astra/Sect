@@ -11,7 +11,12 @@ const Site = () => {
   return (
     <div className="governance-page">
       {/* Header bar */}
-      <br /><br /><br />
+      <br />
+      <div className="market-header">
+        <h2>Site Security Services</h2>
+        <br />
+        <img src="./logo.png" alt="Logo" />
+      </div>
 
       {/* Main content section */}
       <section className="governance-section" style={sectionStyle}>

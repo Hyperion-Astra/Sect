@@ -12,8 +12,11 @@ const Roving = () => {
     <div className="experience-page">
       {/* Header bar */}
       <br />
-      <br />
-      <br />
+      <div className="market-header">
+        <h2>Roving Patrol Services</h2>
+        <br />
+        <img src="./logo.png" alt="Logo" />
+      </div>
 
       {/* Main content section */}
       <section className="experience-section" style={sectionStyle}>

@@ -18,7 +18,7 @@ const Foltlab = () => {
             <div className="contact-section container">
                 <div className="contact-form">
                     <h2>Get In Touch</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>We'd love to hear from you. Get in touch with us for inquiries, partnerships, or any other questions.</p>
 
                     <form>
                         <div className="form-group">
@@ -40,7 +40,7 @@ const Foltlab = () => {
                 {/* Contact Information */}
                 <div className="contact-info">
                     <h3>Contact Information</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque malesuada augue, non sagittis est luctus eget.</p>
+                    <p>We'd love to hear from you. Get in touch with us for inquiries, partnerships, or any other questions.</p>
                     <ul>
                         <li>Email: enquiries@ugwumbacdiala.com</li>
                         <li>Phone: 1(209)-822-2194</li>

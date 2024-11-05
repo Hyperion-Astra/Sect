@@ -14,6 +14,8 @@ const SecurityPage = () => {
       {/* Header bar */}
       <div className="market-header">
         <h2>Security Training Services</h2>
+        <br />
+        <img src="./logo.png" alt="Logo" />
       </div>
 
       {/* Main content section */}

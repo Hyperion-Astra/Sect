@@ -6,7 +6,7 @@ const Loss = () => {
         <div className="box-page">
             {/* Header bar */}
             <div className="box-header">
-                <h2>Our Services</h2>
+                <h2>Loss Prevention Services</h2>
             </div>
 
             {/* Main content section */}
