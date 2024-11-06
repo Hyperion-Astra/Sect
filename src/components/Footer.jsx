@@ -42,7 +42,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="footer-bottom">
-        <p>&copy; 2024 MBACAL Security & Investigation. All Rights Reserved.</p>
+        <p>&copy; 2024 MBACAL Security & Investigations. All Rights Reserved.</p>
       </div>
     </footer>
   );

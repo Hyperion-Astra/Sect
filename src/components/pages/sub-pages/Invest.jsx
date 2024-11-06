@@ -28,7 +28,7 @@ const InvestigationPage = () => {
             Private Investigation <span className="highlight">Services</span>
           </h1>
           <p>
-            At MBACAL SECURITY & INVESTIGATION, we offer comprehensive and, more importantly, discreet investigation
+            At MBACAL SECURITY & INVESTIGATIONS, we offer comprehensive and, more importantly, discreet investigation
             services to uncover the truth and provide clarity in complex situations. Our team of experienced
             investigators utilizes advanced techniques and technology to conduct thorough inquiries, whether for
             corporate fraud, background checks, or personal matters. With a commitment to confidentiality and

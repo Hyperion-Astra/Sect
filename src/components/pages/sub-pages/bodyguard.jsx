@@ -26,7 +26,7 @@ const Bodyguard = () => {
             BodyGuard<span className="highlight" style={highlightStyle}> Services</span>
           </h1>
           <p style={paragraphStyle}>
-            At MBACAL SECURITY & INVESTIGATION, we provide elite bodyguard services to ensure the safety and security of
+            At MBACAL SECURITY & INVESTIGATIONS, we provide elite bodyguard services to ensure the safety and security of
             individuals in high-risk situations. Our highly trained professionals offer personalized protection tailored
             to your specific needs, whether for executives, celebrities, or high-profile events. With a focus on threat
             assessment, tactical planning, and discreet surveillance, our bodyguards are equipped to handle any situation
