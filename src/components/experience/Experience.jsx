@@ -15,7 +15,7 @@ const Experience = () => {
           BodyGuard<span className="highlight" style={highlightStyle}> Services</span>
         </h1>
         <p style={paragraphStyle}>
-          At MBACAL SECURITY & INVESTIGATION, we provide elite bodyguard services to ensure the safety and security of individuals in high-risk situations.
+          At MBACAL SECURITY & INVESTIGATIONS, we provide elite bodyguard services to ensure the safety and security of individuals in high-risk situations.
           <br /><br />
           Every person and situation requires different security measures and systems to prevent targeted attacks.
         </p>

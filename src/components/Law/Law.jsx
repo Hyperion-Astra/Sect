@@ -14,7 +14,7 @@ const Law = () => {
     <section className='serve'>
         <div data-aos = "fade-right" className="left-sec">
             <h1>Law Enforcement<span className='enterprise'> Services</span></h1>
-            <p>At MBACAL SECURITY & INVESTIGATION, we collaborate with law enforcement agencies to enhance community safety and security. Our experienced security professionals, many of whom have backgrounds in law enforcement, provide valuable support in various capacities, including crime prevention, community outreach, and emergency response coordination. By bridging the gap between private security and public safety, we help foster trust and communication within the community. Whether it’s providing on-site security for events or assisting with investigations, our mission is to create a safer environment for everyone.</p>
+            <p>At MBACAL SECURITY & INVESTIGATIONS, we collaborate with law enforcement agencies to enhance community safety and security. Our experienced security professionals, many of whom have backgrounds in law enforcement, provide valuable support in various capacities, including crime prevention, community outreach, and emergency response coordination. By bridging the gap between private security and public safety, we help foster trust and communication within the community. Whether it’s providing on-site security for events or assisting with investigations, our mission is to create a safer environment for everyone.</p>
             <div className="rep">
             <Link to="/services"><button>Explore Law Enforcement Services</button></Link>
             </div>

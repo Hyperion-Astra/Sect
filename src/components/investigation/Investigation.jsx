@@ -18,7 +18,7 @@ const Investigation = () => {
           Private Investigation<span className="highlight" style={highlightStyle}> Services</span>
         </h1>
         <p style={paragraphStyle}>
-          At MBACAL SECURITY & INVESTIGATION, we offer comprehensive and, more importantly, discreet investigation services to uncover the truth and provide clarity in complex situations.
+          At MBACAL SECURITY & INVESTIGATIONS, we offer comprehensive and, more importantly, discreet investigation services to uncover the truth and provide clarity in complex situations.
         </p>
         <div className="explore-button" style={buttonContainerStyle}>
           <Link to="/private-investigation">

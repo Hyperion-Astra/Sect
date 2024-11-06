@@ -34,10 +34,10 @@ const Footer = () => {
             </div>
 
         {/* License Number */}
-        <div className="footer-license">
+        {/* <div className="footer-license">
           <h3>License Information</h3>
           <p>License No: <strong>10775 760-953-4853</strong></p>
-        </div>
+        </div> */}
       </div>
 
       {/* Copyright */}

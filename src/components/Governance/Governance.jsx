@@ -18,7 +18,7 @@ const Governance = () => {
           Site Security <span className="highlight" style={highlightStyle}>Services</span>
         </h1>
         <p style={paragraphStyle}>
-          At MBACAL SECURITY & INVESTIGATION, we recognize the importance of safeguarding your site against potential threats. Our site security services are tailored to meet the unique needs of various environments, including construction sites, warehouses, and corporate facilities.
+          At MBACAL SECURITY & INVESTIGATIONS, we recognize the importance of safeguarding your site against potential threats. Our site security services are tailored to meet the unique needs of various environments, including construction sites, warehouses, and corporate facilities.
         </p>
         <div className="explore-button" style={buttonContainerStyle}>
           <Link to="/site-security-services">

@@ -16,7 +16,7 @@ const Growth = () => {
             Roving Patrol<span className="highlight" style={highlightStyle}> Services</span>
           </h1>
           <p style={paragraphStyle}>
-            At MBACAL SECURITY & INVESTIGATION, we offer proactive roving patrol services designed to enhance security and deter potential threats. Our highly trained security personnel conduct regular, unpredictable patrols throughout your property, ensuring comprehensive coverage and rapid response to any incidents.
+            At MBACAL SECURITY & INVESTIGATIONS, we offer proactive roving patrol services designed to enhance security and deter potential threats. Our highly trained security personnel conduct regular, unpredictable patrols throughout your property, ensuring comprehensive coverage and rapid response to any incidents.
           </p>
           <div className="explore-button" style={buttonContainerStyle}>
             <Link to="/roving-patrol-services">
