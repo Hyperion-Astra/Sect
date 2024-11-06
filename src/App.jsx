@@ -19,6 +19,7 @@ import Over from './components/pages/sub-pages/Over'
 import Event from './components/pages/sub-pages/Event'
 import LivePage from './components/pages/sub-pages/LivePage'
 import SecurityPage from './components/pages/sub-pages/SecurityPage';
+import SecurityApplication from './components/pages/form'
 
 function App() {
   const name = 'Mbacal'
@@ -38,6 +39,7 @@ function App() {
         <Route path= '/insurance' element={<Insure />} />
         <Route path= '/accounting-services' element={<Account />} />
         <Route path= '/security-training-services' element={<SecurityPage />} />
+        <Route path= '/apply' element={<ServiceApplication />} />
         <Route path= '/live-scan-services' element={<LivePage />} />
         <Route path= '/roving-patrol-services' element={<Roving />} />
         <Route path= '/recovery-services' element={<Over />} />
