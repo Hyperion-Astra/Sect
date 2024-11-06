@@ -5,6 +5,8 @@ export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ message: 'Method not allowed' });
   }
+  const emailKey = process.env.EMAIL_KEY;
+  const passKey = process.env.PASS_KEY;
 
   const { officersNeeded, times, frequency, startDate, decisionTime } = req.body;
 
