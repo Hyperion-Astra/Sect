@@ -33,7 +33,7 @@ const Foltlab = () => {
                             <label htmlFor="message">Your Message</label>
                             <textarea id="message" placeholder="Write your message"></textarea>
                         </div>
-                        <button type="submit">Send Message</button>
+                        <button type="submit" >Send Message</button>
                     </form>
                 </div>
 
