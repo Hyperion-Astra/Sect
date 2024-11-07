@@ -32,7 +32,7 @@ function App() {
         <Route path="/" exact element={<Home />} />
         <Route path='/services' element={<Nservices />} />
         <Route path='/about' element={<Portfolio />} />
-        <Route path='/apply' element={<ServiceApplication />} />
+        <Route path='/application' element={<ServiceApplication />} />
         <Route path='/contact' element={<Foltlab />} />
         <Route path= '/loss-prevention' element={<Loss />} />
         <Route path= '/market-services' element={<MarketPage />} />
