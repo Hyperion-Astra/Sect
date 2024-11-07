@@ -68,7 +68,7 @@ const ServiceApplication = () => {
           <option value="I am planning and researching">I am planning and researching</option>
         </select>
 
-        <button type="submit" style={buttonStyle}>Submit Application</button>
+        <button type="submit" style={buttonStyle}>Submit Request</button>
       </form>
     </div>
   );
