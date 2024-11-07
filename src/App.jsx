@@ -19,6 +19,7 @@ import Over from './components/pages/sub-pages/Over'
 import Event from './components/pages/sub-pages/Event'
 import LivePage from './components/pages/sub-pages/LivePage'
 import SecurityPage from './components/pages/sub-pages/SecurityPage';
+import ServiceApplication from './components/pages/form';
 
 function App() {
   const name = 'Mbacal'
@@ -31,6 +32,7 @@ function App() {
         <Route path="/" exact element={<Home />} />
         <Route path='/services' element={<Nservices />} />
         <Route path='/about' element={<Portfolio />} />
+        <Route path='/apply' element={<ServiceApplication />} />
         <Route path='/contact' element={<Foltlab />} />
         <Route path= '/loss-prevention' element={<Loss />} />
         <Route path= '/market-services' element={<MarketPage />} />
