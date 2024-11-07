@@ -19,7 +19,7 @@ import Over from './components/pages/sub-pages/Over'
 import Event from './components/pages/sub-pages/Event'
 import LivePage from './components/pages/sub-pages/LivePage'
 import SecurityPage from './components/pages/sub-pages/SecurityPage';
-import ServiceApplication from './components/pages/form';
+import ServiceApplication from './components/pages/Form';
 
 function App() {
   const name = 'Mbacal'
