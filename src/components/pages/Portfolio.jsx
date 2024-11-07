@@ -75,9 +75,9 @@ const Portfolio = () => {
 
             {/* Contact Section */}
             <div className="services-section container">
-                <h2>Get in Touch</h3>
+                <h2>Get in Touch</h2>
                 <a href="mailto:enquiries@ugwumbacdiala.com" className="contact-link">
-                    enquiries@ugwumbacdiala.com
+                enquiries@ugwumbacdiala.com
                 </a>
             </div>
         </section>
