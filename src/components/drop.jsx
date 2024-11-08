@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 import './drop.css'
 
 export default function Drop() {
@@ -9,23 +11,23 @@ export default function Drop() {
   <div className='dropdownStyle'>
     <h3>Mbacal Security & Investigation</h3>
     <ul className='listStyle'>
-      <li><a href="/event-security">Event Security</a></li>
-      <li><a href="/site-security">Site Security Services</a></li>
-      <li><a href="/private-investigation">Private Investigation Services</a></li>
-      <li><a href="/body-guard">Body Guard Service</a></li>
-      <li><a href="/security-training">Security Training Service</a></li>
-      <li><a href="/live-scan">Live Scan Services</a></li>
+      <li><Link to="/event-security-services">Event Security</Link></li>
+      <li><Link to="/site-security-services">Site Security Services</Link></li>
+      <li><Link to="/private-investigation">Private Investigation Services</Link></li>
+      <li><Link to="/bodyguard-services">Body Guard Service</Link></li>
+      <li><Link to="/security-training-services">Security Training Service</Link></li>
+      <li><Link to="/live-scan-services">Live Scan Services</Link></li>
     </ul>
   </div>
   
   <div className='dropdownStyle'>
     <h3>Integrated Financial & Legal Consult</h3>
     <ul className='listStyle'>
-      <li><a href="/accounting">Accounting & Bookkeeping Services</a></li>
-      <li><a href="/overdue-account-recovery">Overdue Account Recovery Services</a></li>
-      <li><a href="/insurance">Insurance Services</a></li>
-      <li><a href="/notary">Notary Services</a></li>
-      <li><a href="/market-survey">Market Survey Services</a></li>
+      <li><Link to="/accounting-services">Accounting & Bookkeeping Services</Link></li>
+      <li><Link to="/recovery-services">Overdue Account Recovery Services</Link></li>
+      <li><Link to="/insurance">Insurance Services</Link></li>
+      <li><Link to="/notary-services">Notary Services</Link></li>
+      <li><Link to="/market-services">Market Survey Services</Link></li>
     </ul>
   </div>
 </div>
