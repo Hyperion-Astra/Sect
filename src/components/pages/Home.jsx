@@ -11,7 +11,6 @@ import Investigation from '../investigation/Investigation'
 import Overdue from '../finance/Overdue'
 import Accounting from '../finance/Accounting';
 import Tabs from '../Hero/Tabs';
-import Drop from '../drop'
 
 const Home = () => {
 
@@ -23,7 +22,6 @@ return (
     <Hero />
     <Tabs />
     </div>
-    <Drop />
     <Services />
     <Overdue />
     <Box />
