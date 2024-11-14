@@ -10,6 +10,7 @@ import Investigation from '../investigation/Investigation';
 const SecurityServices = () => {
     return (
         <div style={containerStyle}>
+            <br /><br /><br />
             <h1 style={titleStyle}>Mbacal Security & Investigation Services</h1>
             <p style={paragraphStyle}>Explore our comprehensive security services:</p>
             <br />
@@ -25,7 +26,6 @@ const SecurityServices = () => {
     );
 };
 const containerStyle = {
-    maxWidth: '600px',
     margin: '0 auto',
     padding: '40px 20px',
     backgroundColor: '#f8f9fa',

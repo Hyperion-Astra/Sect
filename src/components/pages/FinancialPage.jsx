@@ -11,6 +11,7 @@ import Market from '../finance/Market'
 const LegalServices = () => {
     return (
         <div style={containerStyle}>
+            <br /><br /><br />
             <h1 style={titleStyle}>Integrated Financial & Legal Consult Services</h1>
             <p style={paragraphStyle}>Our range of professional financial and legal services includes:</p>
             <br />
@@ -24,7 +25,6 @@ const LegalServices = () => {
     );
 };
 const containerStyle = {
-    maxWidth: '600px',
     margin: '0 auto',
     padding: '40px 20px',
     backgroundColor: '#f8f9fa',
