@@ -37,6 +37,7 @@ const Header = () => {
                         </div>
                         <Link to="/about">About</Link>
                         <Link to="/contact">Contact Us!</Link>
+                        <Link to="/application"><button>Request for our Services</button></Link>
                     </div>
                     <div className="menu-icon" onClick={() => setMenuOpened((prev) => !prev)}>
                         <BiMenuAltRight size={30} />
