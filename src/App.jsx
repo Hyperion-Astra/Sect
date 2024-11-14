@@ -20,6 +20,8 @@ import Event from './components/pages/sub-pages/Event'
 import LivePage from './components/pages/sub-pages/LivePage'
 import SecurityPage from './components/pages/sub-pages/SecurityPage';
 import ServiceApplication from './components/pages/Form';
+import SecurityServices from './components/pages/SecurityPage';
+import LegalServices from './components/pages/FinancialPage';
 
 function App() {
   const name = 'Mbacal'
@@ -43,6 +45,8 @@ function App() {
         <Route path= '/live-scan-services' element={<LivePage />} />
         <Route path= '/roving-patrol-services' element={<Roving />} />
         <Route path= '/recovery-services' element={<Over />} />
+        <Route path= '/security-services' element={<SecurityServices />} />
+        <Route path= '/financial-services' element={<LegalServices />} />
         <Route path= '/event-security-services' element={<Event />} />
         <Route path= '/notary-services' element={<NotaryPage />} />
         <Route path= '/site-security-services' element={<Site />} />
