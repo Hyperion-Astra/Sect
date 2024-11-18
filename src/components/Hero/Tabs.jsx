@@ -14,7 +14,7 @@ const Tabs = () => {
                     </div>
                     <h2>Security & Investigations</h2>
                     <p>We prioritize brand integrity through proactive security measures and thorough investigations.</p>
-                    <Link to="/services"><button>View Details</button></Link>
+                    <Link to="/security-services"><button>View Details</button></Link>
                 </div>
 
                 {/* Tab 2 */}
@@ -24,7 +24,7 @@ const Tabs = () => {
                     </div>
                     <h2>Financial Integration & Legal Consult</h2>
                     <p>Providing expert legal consultation for businesses and individuals alike.</p>
-                    <Link to="/services"><button>View Details</button></Link>
+                    <Link to="/financial-services"><button>View Details</button></Link>
                 </div>
 
                 {/* Tab 3 */}
@@ -34,7 +34,7 @@ const Tabs = () => {
                     </div>
                     <h2>Auto Dealers(Used Car)</h2>
                     <p>We offer a large Variety of Automobiles to suit any specific need.</p>
-                    <Link to="/services"><button>View Details</button></Link>
+                    <Link to="/security-services"><button>View Details</button></Link>
                 </div>
             </div>
         </section>

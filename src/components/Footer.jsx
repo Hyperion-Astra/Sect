@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="footer">
-            <Link to="/application"><button>Request for our Services</button></Link>
-            <br /> <br />
       <div className="footer-container">
         {/* Footer Links */}
         <div className="footer-links">
