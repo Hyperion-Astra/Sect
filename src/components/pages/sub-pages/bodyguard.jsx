@@ -41,6 +41,10 @@ const Bodyguard = () => {
         </div>
         <div data-aos="fade-left" className="experience-image" style={imageContainerStyle}>
           <img src="./body.jpg" alt="Bodyguard Services" style={imageStyle} />
+          {/* Button directly below the image */}
+          <Link to="/application">
+            <button className="request-button">Request for our Services</button>
+          </Link>
         </div>
       </section>
     </div>

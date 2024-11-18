@@ -19,6 +19,10 @@ const Insure = () => {
       <section className="market-content-section">
         <div data-aos="fade-right" className="market-image-container">
           <img src="./legal.webp" alt="Market Survey Services" className="market-image" />
+          {/* Button directly below the image */}
+          <Link to="/application">
+            <button className="request-button">Request for our Services</button>
+          </Link>
         </div>
         <div data-aos="fade-left" className="market-details">
           <h1>
