@@ -7,6 +7,7 @@ import Security from '../finance/Security';
 import Live from '../finance/Live';
 import Investigation from '../investigation/Investigation';
 import Box from '../Box/Box'
+import Training from '../Box/Training';
 
 const SecurityServices = () => {
     return (
@@ -21,6 +22,7 @@ const SecurityServices = () => {
             <Governance />
             <Experience />
             <Security />
+            <Training />
             <Live />
             <Investigation />
             
