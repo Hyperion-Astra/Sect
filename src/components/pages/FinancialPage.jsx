@@ -1,7 +1,6 @@
 import React from 'react';
 import Overdue from '../finance/Overdue'
 import Accounting from '../finance/Accounting';
-import Box from '../Box/Box';
 import Insurance from '../finance/Insurance'
 import Notary from '../finance/Notary'
 import Market from '../finance/Market'
@@ -16,7 +15,6 @@ const LegalServices = () => {
             <p style={paragraphStyle}>Our range of professional financial and legal services includes:</p>
             <br />
             <Overdue />
-            <Box />
             <Accounting />
             <Insurance />
             <Notary />

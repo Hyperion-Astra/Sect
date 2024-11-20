@@ -12,7 +12,7 @@ const Tabs = () => {
                     <div className="tab-icon">
                         <img src="./sect.jpeg" alt="Icon 1" />
                     </div>
-                    <h2>Security & Investigations</h2>
+                    <h2>MBACAL Security & Investigations</h2>
                     <p>We prioritize brand integrity through proactive security measures and thorough investigations.</p>
                     <Link to="/security-services"><button>View Details</button></Link>
                 </div>
@@ -22,7 +22,7 @@ const Tabs = () => {
                     <div className="tab-icon">
                         <img src="./legal.png" alt="Icon 2" />
                     </div>
-                    <h2>Financial Integration & Legal Consult</h2>
+                    <h2>Integrated Finanacial & Legal Consult</h2>
                     <p>Providing expert legal consultation for businesses and individuals alike.</p>
                     <Link to="/financial-services"><button>View Details</button></Link>
                 </div>

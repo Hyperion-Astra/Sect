@@ -6,6 +6,7 @@ import Experience from '../experience/Experience';
 import Security from '../finance/Security';
 import Live from '../finance/Live';
 import Investigation from '../investigation/Investigation';
+import Box from '../Box/Box'
 
 const SecurityServices = () => {
     return (
@@ -16,6 +17,7 @@ const SecurityServices = () => {
             <br />
             <Services />
             <Growth />
+            <Box />
             <Governance />
             <Experience />
             <Security />

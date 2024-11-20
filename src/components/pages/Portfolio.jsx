@@ -17,14 +17,14 @@ const Portfolio = () => {
             {/* About Dr. Ugwumba Section */}
             <div className="about-section container">
                 <div className="about-details">
-                    <h2>About Dr. Ugwumba</h2>
+                    <h2>About Dr. Diala Ugwumba</h2>
                     <img src="./ugwumba.jpg" alt="Dr. Diala Callistus Ugwumba" className="about-image"
                 style={{ width: "150px", height: "auto", marginRight: "20px" }} />
                     <p>
-                        Dr. Ugwumba holds a doctorate degree in Management (Corporate Finance) from Walden University, a Masters in Law (LLM) from Northeastern University, a B.Sc and an LLB Law degree from the National Open University of Nigeria. He also holds an MBA in Finance and a degree in Actuarial Science from the University of Lagos.
+                        Dr. Diala Ugwumba holds a doctorate degree in Management (Corporate Finance) from Walden University, a Masters in Law (LLM) from Northeastern University, a B.Sc and an LLB Law degree from the National Open University of Nigeria. He also holds an MBA in Finance and a degree in Actuarial Science from the University of Lagos.
                     </p>
                     <p>
-                        Dr. Ugwumba oversees several companies in the United States and Nigeria, offering services ranging from financial consultancy to legal support and security services.
+                        Dr. Diala Ugwumba oversees several companies in the United States and Nigeria, offering services ranging from financial consultancy to legal support and security services.
                     </p>
                 </div>
 
@@ -45,6 +45,7 @@ const Portfolio = () => {
                         </div>
                         <div className="company-item">
                             <h4>Mbacal Auto & Dismantle LIC 06435</h4>
+                            <p>Tel: 760-953-4853</p>
                         </div>
                         <div className="company-item">
                             <h4>Mbacal Security and Investigations LIC 122308</h4>
