@@ -12,7 +12,7 @@ const Training = () => {
   return (
     <section className='box-section' style={sectionStyle}>
       <div data-aos="fade-right" className="box-image" style={imageContainerStyle}>
-        <img src="./law.jpg" alt="Security Training" style={imageStyle} />
+        <img src="./secure.jpg" alt="Security Training" style={imageStyle} />
       </div>
       <div data-aos="fade-left" className="box-content" style={contentStyle}>
         <h1 style={titleStyle}>
