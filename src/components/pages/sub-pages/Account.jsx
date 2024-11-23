@@ -42,7 +42,7 @@ const Account = () => {
                 <strong>Financial Reporting:</strong>   Our team prepares detailed financial statements and reports, providing you with valuable insights into your business performance.
               </li>
               <li>
-                <strong>Task Complaince:</strong>  We handle all aspects of tax preparation and filing, ensuring compliance with current regulations while maximizing deductions and minimizing liabilities.
+                <strong>Tax Complaince:</strong>  We handle all aspects of tax preparation and filing, ensuring compliance with current regulations while maximizing deductions and minimizing liabilities.
               </li>
               <li>
                 <strong>Budgeting and Forecasting:</strong> We provide clear, actionable recommendations based on the survey

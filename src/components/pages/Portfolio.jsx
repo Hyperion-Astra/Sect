@@ -9,7 +9,7 @@ const Portfolio = () => {
                 <div className="container">
                     <div className="about-hero-content">
                         <h1>Dr. Diala Callistus Ugwumba</h1>
-                        <h2>PhD, LLM, MBA, LLB</h2>
+                        <h2>BSC, LLB, MBA, LLM, PhD</h2>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@ const Portfolio = () => {
                     <img src="./ugwumba.jpg" alt="Dr. Diala Callistus Ugwumba" className="about-image"
                 style={{ width: "150px", height: "auto", marginRight: "20px" }} />
                     <p>
-                        Dr. Diala Ugwumba holds a doctorate degree in Management (Corporate Finance) from Walden University, a Masters in Law (LLM) from Northeastern University, a B.Sc and an LLB Law degree from the National Open University of Nigeria. He also holds an MBA in Finance and a degree in Actuarial Science from the University of Lagos.
+                        Dr. Diala Ugwumba holds a doctorate degree in Management (Corporate Finance) from Walden University, a Masters in Law (LLM) from Northeastern University, a B.Sc and an LLB Law degree from the National Open University of Nigeria. He also holds an MBA in Finance and a BSC in Actuarial Science from the University of Lagos Business School.
                     </p>
                     <p>
                         Dr. Diala Ugwumba oversees several companies in the United States and Nigeria, offering services ranging from financial consultancy to legal support and security services.
