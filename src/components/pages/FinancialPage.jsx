@@ -1,5 +1,4 @@
 import React from 'react';
-import Overdue from '../finance/Overdue'
 import Accounting from '../finance/Accounting';
 import Insurance from '../finance/Insurance'
 import Notary from '../finance/Notary'

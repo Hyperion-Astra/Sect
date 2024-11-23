@@ -15,7 +15,6 @@ import Site from './components/pages/sub-pages/site'
 import Insure from './components/pages/sub-pages/Insure';
 import Roving from './components/pages/sub-pages/Roving'
 import Account from './components/pages/sub-pages/Account'
-import Over from './components/pages/sub-pages/Over'
 import Event from './components/pages/sub-pages/Event'
 import LivePage from './components/pages/sub-pages/LivePage'
 import SecurityPage from './components/pages/sub-pages/SecurityPage';
@@ -44,7 +43,6 @@ function App() {
         <Route path= '/security-training-services' element={<SecurityPage />} />
         <Route path= '/live-scan-services' element={<LivePage />} />
         <Route path= '/roving-patrol-services' element={<Roving />} />
-        <Route path= '/recovery-services' element={<Over />} />
         <Route path= '/security-services' element={<SecurityServices />} />
         <Route path= '/financial-services' element={<LegalServices />} />
         <Route path= '/event-security-services' element={<Event />} />
