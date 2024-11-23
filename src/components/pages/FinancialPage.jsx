@@ -14,7 +14,6 @@ const LegalServices = () => {
             <h1 style={titleStyle}>Integrated Financial & Legal Consult Services</h1>
             <p style={paragraphStyle}>Our range of professional financial and legal services includes:</p>
             <br />
-            <Overdue />
             <Accounting />
             <Insurance />
             <Notary />

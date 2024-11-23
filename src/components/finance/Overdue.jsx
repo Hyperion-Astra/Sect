@@ -22,7 +22,7 @@ const Overdue = () => {
         We specialize in integrated financial and legal solutions to help you effectively manage and recover overdue accounts.
         </p>
         <div className="explore-button" style={buttonContainerStyle}>
-          <Link to="/recovery-services">
+          <Link to="/accounting-services">
             <button style={buttonStyle}>
               Explore Services
             </button>

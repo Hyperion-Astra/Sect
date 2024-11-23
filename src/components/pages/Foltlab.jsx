@@ -42,7 +42,7 @@ const Foltlab = () => {
                     <h3>Contact Information</h3>
                     <p>We'd love to hear from you. Get in touch with us for inquiries, partnerships, or any other questions.</p>
                     <ul>
-                        <li>Email: enquiries@ugwumbacdiala.com</li>
+                        <li>Email: enquiries@mbacalgroup.com</li>
                         <li>Phone: 1(209)-822-2194</li>
                         <li>Address:1712 Pioneer Ave, Suite 101 WY 82001</li>
                     </ul>

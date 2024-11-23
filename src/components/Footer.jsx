@@ -30,7 +30,7 @@ const Footer = () => {
 
          {/* Contact Info */}
             <div className="footer-contact">
-                <p>Tel: 1(209)-822-2194 | <a href="mailto:enquiries@ugwumbacdiala.com">enquiries@ugwumbacdiala.com</a></p>
+                <p>Tel: 1(209)-822-2194 | <a href="mailto:enquiries@mbacalgroup.com">enquiries@mbacalgroup.com</a></p>
             </div>
 
         {/* License Number */}

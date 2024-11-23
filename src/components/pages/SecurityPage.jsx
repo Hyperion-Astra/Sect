@@ -22,7 +22,6 @@ const SecurityServices = () => {
             <Governance />
             <Experience />
             <Security />
-            <Training />
             <Live />
             <Investigation />
             
