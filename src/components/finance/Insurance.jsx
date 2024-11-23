@@ -23,7 +23,7 @@ const Insurance = () => {
         </p>
         
         <div className="explore-button" style={buttonContainerStyle}>
-          <Link to="/insurance">
+          <Link to="/insurance-services">
             <button style={buttonStyle}>
               Explore Services
             </button>

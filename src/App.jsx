@@ -39,7 +39,7 @@ function App() {
         <Route path= '/loss-prevention' element={<Loss />} />
         <Route path= '/market-services' element={<MarketPage />} />
         <Route path= '/bodyguard-services' element={<Bodyguard />} />
-        <Route path= '/insurance' element={<Insure />} />
+        <Route path= '/insurance-services' element={<Insure />} />
         <Route path= '/accounting-services' element={<Account />} />
         <Route path= '/security-training-services' element={<SecurityPage />} />
         <Route path= '/live-scan-services' element={<LivePage />} />
