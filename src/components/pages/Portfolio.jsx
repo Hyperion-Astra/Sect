@@ -21,7 +21,7 @@ const Portfolio = () => {
                     <img src="./ugwumba.jpg" alt="Dr. Diala Callistus Ugwumba" className="about-image"
                 style={{ width: "150px", height: "auto", marginRight: "20px" }} />
                     <p>
-                        Dr. Diala Ugwumba holds a doctorate degree in Management (Corporate Finance) from Walden University, a Masters in Law (LLM) from Northeastern University, a B.Sc and an LLB Law degree from the National Open University of Nigeria. He also holds an MBA in Finance and a BSC in Actuarial Science from the University of Lagos Business School.
+                    Dr. Ugwumba hold a doctorate degree in Management (Corporate Finance) from Walden University. Masters in Law (LLM) degree from Northeastern University. LLB Law degree from National Open University of Nigeria. MBA (Finance) from University of Calabar and BSc Actuarial Science degrees specializing in Investment from University of Lagos Business School. Dr. Ugwumba oversees the following companies in America and Nigeria.
                     </p>
                     <p>
                         Dr. Diala Ugwumba oversees several companies in the United States and Nigeria, offering services ranging from financial consultancy to legal support and security services.
@@ -33,9 +33,9 @@ const Portfolio = () => {
                     <h3>Mbacal Group LLC</h3>
                     <div className="company-list">
                         <div className="company-item">
-                            <h4>Mbacal Group LLC</h4>
-                            <p>1712 Pioneer Ave, Suite 101 WY 82001</p>
-                            <p>Tel: 1(209)-822-2194</p>
+                            <h4>Mbacal Group LLC Office</h4>
+                            <p>30 N Gould St #34769 Sheridan WY 82801</p>
+                            <p>Tel: 209-827-2194</p>
                         </div>
                         <div className="company-item">
                             <h4>Integrated Financial & Legal Consult LIC 0106887 & 2447853</h4>

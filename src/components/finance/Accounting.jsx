@@ -16,7 +16,7 @@ const Accounting = () => {
       </div>
       <div data-aos="fade-left" className="governance-content" style={contentStyle}>
         <h1 style={titleStyle}>
-          Account Recovery & Book Keeping <span className="highlight" style={highlightStyle}>Services</span>
+          Accounting & Book Keeping <span className="highlight" style={highlightStyle}>Services</span>
         </h1>
         <p style={paragraphStyle}>
         We offer comprehensive accounting and bookkeeping services designed to support your business’s financial health and streamline your operations.
