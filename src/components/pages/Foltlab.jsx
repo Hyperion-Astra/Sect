@@ -44,7 +44,7 @@ const Foltlab = () => {
                     <ul>
                         <li>Email: enquiries@ugwumbacdiala.com</li>
                         <li>Phone: 1(209)-822-2194</li>
-                        <li>Address: 1234 Main St, City, Country</li>
+                        <li>Address:1712 Pioneer Ave, Suite 101 WY 82001</li>
                     </ul>
                 </div>
             </div>

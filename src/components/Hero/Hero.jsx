@@ -8,13 +8,13 @@ const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
         {
-            title: 'SECURITY & INVESTIGATIONS',
+            title: 'MBACAL SECURITY & INVESTIGATIONS',
             description: 'We prioritize brand integrity through proactive security measures and thorough investigations.',
             img: '/security.jpg',
             buttonText: 'Learn more',
         },
         {
-            title: 'FINANCIAL INTEGRATION & LEGAL CONSULT',
+            title: 'INTEGRATED FINANCIAL & LEGAL CONSULT',
             description: 'Providing expert legal consultation for businesses and individuals alike.',
             img: '/legal.webp',
             buttonText: 'Learn More',
