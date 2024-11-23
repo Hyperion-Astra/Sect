@@ -20,7 +20,7 @@ import SecurityPage from './components/pages/sub-pages/SecurityPage';
 import ServiceApplication from './components/pages/Form';
 import SecurityServices from './components/pages/SecurityPage';
 import LegalServices from './components/pages/FinancialPage';
-import Insure from './components/pages/sub-pages/Insure';
+import Insurance from './components/pages/sub-pages/Insurance';
 
 function App() {
   const name = 'Mbacal'
@@ -35,10 +35,10 @@ function App() {
         <Route path='/about' element={<Portfolio />} />
         <Route path='/application' element={<ServiceApplication />} />
         <Route path='/contact' element={<Foltlab />} />
+        <Route path='/insurance-services' element={<Insurance />} />
         <Route path= '/loss-prevention' element={<Loss />} />
         <Route path= '/market-services' element={<MarketPage />} />
         <Route path= '/bodyguard-services' element={<Bodyguard />} />
-        <Route path= '/insurance-services' element={<Insure />} />
         <Route path= '/accounting-services' element={<Account />} />
         <Route path= '/security-training-services' element={<SecurityPage />} />
         <Route path= '/live-scan-services' element={<LivePage />} />

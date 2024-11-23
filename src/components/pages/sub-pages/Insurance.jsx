@@ -3,7 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './MarketPage.css';
 
-const Insure = () => {
+const Insurance = () => {
   useEffect(() => {
     Aos.init({ duration: 1200 });
   }, []);
@@ -52,6 +52,6 @@ const Insure = () => {
 };
 
 
-export default Insure;
+export default Insurance;
 
 
