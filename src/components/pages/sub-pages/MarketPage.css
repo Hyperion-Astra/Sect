@@ -63,6 +63,20 @@
     color: #555;
     margin-bottom: 30px;
   }
+  .read-more-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .read-more-button:hover {
+    background-color: #0056b3;
+  }
   
   /* Key features list */
   .key-features h2 {

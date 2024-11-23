@@ -3,6 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 import './Invest.css'; // Import CSS file for specific styles
+import './MarketPage.css';
 
 const InvestigationPage = () => {
   useEffect(() => {
@@ -13,7 +14,7 @@ const InvestigationPage = () => {
     <div className="investigation-page">
       {/* Header bar */}
       <div className="investigation-header">
-        <h2>Private Investigation Services</h2>
+        <h2>MBACAL SECURITY & INVESTIGATIONS</h2>
         <br />
         <img src="./logo.png" alt="Logo" />
       </div>

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import './MarketPage.css';
+
 
 const SecurityPage = () => {
   const [isExpanded, setIsExpanded] = useState(false); // State to toggle visibility
@@ -16,7 +18,12 @@ const SecurityPage = () => {
   return (
     <div className="notary-page">
       {/* Header bar */}
-      <br /><br /><br />
+      <br />
+      <div className="market-header">
+        <h2>MBACAL SECURITY & INVESTIGATIONS</h2>
+        <br />
+        <img src="./logo.png" alt="Logo" />
+      </div>
 
       {/* Main content section */}
       <section className="governance-section" style={sectionStyle}>

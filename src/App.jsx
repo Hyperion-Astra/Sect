@@ -12,7 +12,6 @@ import MarketPage from './components/pages/sub-pages/MarketPage'
 import Bodyguard from './components/pages/sub-pages/bodyguard'
 import NotaryPage from './components/pages/sub-pages/NotaryPage'
 import Site from './components/pages/sub-pages/site'
-import Insure from './components/pages/sub-pages/Insure';
 import Roving from './components/pages/sub-pages/Roving'
 import Account from './components/pages/sub-pages/Account'
 import Event from './components/pages/sub-pages/Event'
@@ -21,6 +20,7 @@ import SecurityPage from './components/pages/sub-pages/SecurityPage';
 import ServiceApplication from './components/pages/Form';
 import SecurityServices from './components/pages/SecurityPage';
 import LegalServices from './components/pages/FinancialPage';
+import Insure from './components/pages/sub-pages/Insure';
 
 function App() {
   const name = 'Mbacal'

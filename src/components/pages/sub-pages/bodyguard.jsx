@@ -14,7 +14,7 @@ const Bodyguard = () => {
       {/* Header bar */}
       <br />
       <div className="market-header">
-        <h2>Body Guard Services</h2>
+        <h2>MBACAL SECURITY & INVESTIGATIONS</h2>
         <br />
         <img src="./logo.png" alt="Logo" />
       </div>

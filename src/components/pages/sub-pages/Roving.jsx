@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
+import './MarketPage.css';
 
 const Roving = () => {
   useEffect(() => {
@@ -13,7 +14,7 @@ const Roving = () => {
       {/* Header bar */}
       <br />
       <div className="market-header">
-        <h2>Roving Patrol Services</h2>
+        <h2>MBACAL SECURITY & INVESTIGATIONS</h2>
         <br />
         <img src="./logo.png" alt="Logo" />
       </div>
