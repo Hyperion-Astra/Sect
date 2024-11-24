@@ -3,6 +3,7 @@ import Accounting from '../finance/Accounting';
 import Insurance from '../finance/Insurance'
 import Notary from '../finance/Notary'
 import Market from '../finance/Market'
+import Live from '../finance/Live'
 
 
 
@@ -16,6 +17,7 @@ const LegalServices = () => {
             <Accounting />
             <Insurance />
             <Notary />
+            <Live />
             <Market />
         </div>
     );

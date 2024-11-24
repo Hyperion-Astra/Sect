@@ -4,7 +4,6 @@ import Growth from '../Growth/Growth';
 import Governance from '../Governance/Governance';
 import Experience from '../experience/Experience';
 import Security from '../finance/Security';
-import Live from '../finance/Live';
 import Investigation from '../investigation/Investigation';
 import Box from '../Box/Box'
 
@@ -21,7 +20,6 @@ const SecurityServices = () => {
             <Governance />
             <Experience />
             <Security />
-            <Live />
             <Investigation />
             
         </div>

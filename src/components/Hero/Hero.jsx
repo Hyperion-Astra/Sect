@@ -15,7 +15,7 @@ const Hero = () => {
         },
         {
             title: 'INTEGRATED FINANCIAL & LEGAL CONSULT',
-            description: 'Providing expert legal consultation for businesses and individuals alike.',
+            description: 'Providing expert financial and legal consultation for businesses and individuals alike.',
             img: '/legal.webp',
             buttonText: 'Learn More',
         },

@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 
 const ServiceApplication = () => {
   const [formData, setFormData] = useState({
+    name: '',
+    phoneNumber: '',
+    email: '',
     officersNeeded: '',
     timeOfDay: '',
     frequency: '',
@@ -26,6 +29,40 @@ const ServiceApplication = () => {
         method="POST"
         style={formStyle}
       >
+        {/* Name Field */}
+        <label style={labelStyle}>Your Name:</label>
+        <input
+          type="text"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+          style={inputStyle}
+          required
+        />
+
+        {/* Phone Number Field */}
+        <label style={labelStyle}>Your Phone Number:</label>
+        <input
+          type="tel"
+          name="phoneNumber"
+          value={formData.phoneNumber}
+          onChange={handleChange}
+          style={inputStyle}
+          required
+        />
+
+        {/* Email Field */}
+        <label style={labelStyle}>Your Email Address:</label>
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          style={inputStyle}
+          required
+        />
+
+        {/* Existing Fields */}
         <label style={labelStyle}>How many security officers do you need?</label>
         <select name="officersNeeded" value={formData.officersNeeded} onChange={handleChange} style={selectStyle}>
           <option value="">Select</option>
@@ -58,7 +95,13 @@ const ServiceApplication = () => {
         </select>
 
         <label style={labelStyle}>Effective date for officers to start work:</label>
-        <input type="date" name="startDate" value={formData.startDate} onChange={handleChange} style={inputStyle} />
+        <input
+          type="date"
+          name="startDate"
+          value={formData.startDate}
+          onChange={handleChange}
+          style={inputStyle}
+        />
 
         <label style={labelStyle}>How early are you likely to make hiring decisions?</label>
         <select name="hiringDecision" value={formData.hiringDecision} onChange={handleChange} style={selectStyle}>
